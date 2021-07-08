@@ -1,5 +1,7 @@
-package org.apache.dependencies.inject.context;
+package org.apache.dependencies.inject.context.jndi;
 
+
+import org.apache.dependencies.inject.context.AbstractComponentContext;
 
 /**
  * Ioc Context BASE ON jndi
