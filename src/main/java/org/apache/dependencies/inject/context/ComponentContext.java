@@ -17,7 +17,7 @@ public interface ComponentContext extends Lifecycle {
 
     Object getComponent(Class<?> Type);
 
-    boolean registerComponent(Object bean);
+    boolean registerComponent(String beanName, Object bean);
 
     boolean disRegisterComponent(String beanName);
 
